@@ -10,7 +10,8 @@
   "scripts": {
     "build": "webpack",
     "start": "npm run build && node server.js",
-    "develop": "npm run build && nodemon server.js"
+    "dev": "npm run build && nodemon server.js",
+    "audit": "lighthouse http://localhost:1234 --view"
   },
   "dependencies": {
     "@material-ui/core": "^1.2.0",
